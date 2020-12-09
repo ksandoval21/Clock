@@ -13,5 +13,4 @@ top.mainloop()
 def display_time():
     current_time=strftime("%M:%S:%p")
     clock_label.config(text=current_time)
-    top.after(1000, display_time)
-
+    clock_label.after(200, display_time)
